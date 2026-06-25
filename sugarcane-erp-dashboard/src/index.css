@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #090d16;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #f3f4f6;
+  overflow-y: auto;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+
+/* Custom adjustments for Material UI Dialogs */
+.MuiDialog-paper {
+  background-color: #111827 !important;
+  border: 1px solid #1f2937 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5) !important;
+}
+
+.MuiDialogTitle-root {
+  border-bottom: 1px solid #1f2937;
+  padding-bottom: 16px !important;
+}
+
+.MuiDialogActions-root {
+  border-top: 1px solid #1f2937;
+  padding-top: 16px !important;
+}
+
+/* Table cells styling */
+.MuiTableCell-root {
+  border-bottom: 1px solid #1f2937 !important;
+}
+
+/* Tab buttons styling overlay */
+.MuiButton-root {
+  transition: all 0.2s ease-in-out !important;
+}
+
+.MuiCard-root {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-2px);
+  border-color: #374151 !important;
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.6) !important;
+}

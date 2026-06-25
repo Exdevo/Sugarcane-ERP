@@ -1,0 +1,8 @@
+2026-06-21 11:34:35,486 - INFO - main - Database connection successful on startup
+2026-06-21 11:34:47,492 - INFO - main - Shutting down API server
+2026-06-21 11:34:57 | INFO     | sugarcane_backend | Database connection successful on startup
+2026-06-21 17:53:08 | INFO     | sugarcane_backend | Database connection successful on startup
+2026-06-21 18:32:36 | INFO     | sugarcane_backend | Database connection successful on startup
+2026-06-25 08:08:22 | INFO     | sugarcane_backend | Database connection successful on startup
+2026-06-25 08:08:24 | INFO     | sugarcane_backend | Shutting down API server
+2026-06-25 08:08:35 | INFO     | sugarcane_backend | Database connection successful on startup
