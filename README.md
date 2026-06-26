@@ -184,10 +184,3 @@ python -m http.server 5500
 - Mobile App
 - Cloud Deployment
 
----
-
-## Author
-
-**Obadia Koech**
-
-Bachelor of Information Technology
